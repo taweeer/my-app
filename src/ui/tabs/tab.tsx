@@ -49,7 +49,7 @@ const TabButton = styled.button<{ isSelect: boolean }>`
   font-size: 32px;
   padding: 0px 40px;
   border-bottom: 3px solid;
-  border-color: ${({ isSelect }) => (isSelect ? "#47464d" : "transparent")};
+  border-color: ${({ isSelect }) => ({isSelect} ? "#47464d" : "transparent")};
   color: #201e1e;
   font-weight: 500;
   cursor: pointer;
