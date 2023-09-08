@@ -73,11 +73,9 @@ const SearchWrapper = styled.div`
 const InputHeader = styled.input`
   all: unset;
   height: 70px;
-  width: 1200px;
+  width: 700px;
   color: white;
   border: none;
-  
-  /* background-color: #6e7ce9; */
   margin-left: 30px;
   
 

@@ -1,20 +1,14 @@
-import React from 'react';
-import './App.css';
-import { Header } from './features/header/header';
-import { Title } from './ui/title/title';
-import { Tabs, tabItems } from './ui/tabs/tab';
-
-
+import "./App.css";
+import React from "react";
+import { PostList } from "./features/post-list/postList";
+import { PostCard } from "./post.date";
 
 function App() {
-  
-  return ( 
-    <div className='app'>
-      <Header />
-      <Title>Sign In</Title>
-     <Tabs tabs={tabItems} />
-   </div>
+  return (
+    <div className="app">
+      <PostList postCard={PostCard} />
+    </div>
   );
-    }
+}
 
 export default App;
